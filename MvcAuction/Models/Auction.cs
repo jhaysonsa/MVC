@@ -13,6 +13,10 @@ namespace MvcAuction.Models
         public string Description { get; set; }
         public string ImageUrl { get; set; }
         public DateTime StarTime   { get; set; }
+        public DateTime EndTime  { get; set; }
+
+        public decimal StartPrice { get; set; }
+        public decimal? CurrentPrice { get; set; }
 
 
     }
